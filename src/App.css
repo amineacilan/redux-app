@@ -12,8 +12,8 @@
   color: #be131c;
 }
 
-.ekleme_formu input,
-.ekleme_formu button,
+.row input,
+.row button,
 .temizle {
   padding: 10px;
   border: 0;
@@ -21,11 +21,11 @@
   font-size: 16px;
 }
 
-.ekleme_formu input {
+.row input {
   background: #e1e1e2;
 }
 
-.ekleme_formu button {
+.row button {
   background: #e99c0c;
   color: white;
 }
