@@ -1,38 +1,51 @@
 .App {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 400px;
+  height: 400px;
   text-align: center;
+  font-family: sans-serif;
+  display: inline-block;
+  color: #be131c;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ekleme_formu input,
+.ekleme_formu button,
+.temizle {
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ekleme_formu input {
+  background: #e1e1e2;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.ekleme_formu button {
+  background: #e99c0c;
+  color: white;
+}
+.temizle {
+  background: #025f26;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.liste {
+  padding: 10px 0;
+  margin: 10px;
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.liste tr td {
+  padding-right: 15px;
+  font-size: 20px;
+  color: #382a02cc;
+}
+
+.yapildi {
+  text-decoration: line-through;
 }
